@@ -1,0 +1,118 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "./dist/",
+	"compileType": "miniprogram",
+	"appid": "wx90aeed5cab7379f1",
+	"projectname": "7.10%E6%97%A9",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "详情",
+					"pathName": "pages/detail/main",
+					"query": "id=610"
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/my-center/main",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "分享",
+					"pathName": "pages/index/main",
+					"query": "id=885&auid=A6ncYVDXmMpiFbEb",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "明星达人新页面",
+					"pathName": "pages/star-talent/main",
+					"query": "",
+					"scene": "1011"
+				},
+				{
+					"id": -1,
+					"name": "陪伴卡",
+					"pathName": "pages/help-popularity/main",
+					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "通过别人转发进入",
+					"pathName": "pages/help-popularity/main",
+					"query": "auid=94w7-NpNxDFjBJnQ&id=18",
+					"scene": "1011"
+				},
+				{
+					"id": 6,
+					"name": "分享进入",
+					"pathName": "pages/my-center/main",
+					"query": "",
+					"scene": "1011"
+				},
+				{
+					"id": 7,
+					"name": "通过扫码进入",
+					"pathName": "pages/help-popularity/main",
+					"query": "scene=1##AAAAA",
+					"scene": "1048"
+				},
+				{
+					"id": 8,
+					"name": "扫码进首页",
+					"pathName": "pages/index/main",
+					"query": "scene=1##BBBBB",
+					"scene": "1011"
+				},
+				{
+					"id": 9,
+					"name": "转发进详情",
+					"pathName": "pages/detail/main",
+					"query": "auid=2&id=965",
+					"scene": "1059"
+				},
+				{
+					"id": 10,
+					"name": "转发进打榜",
+					"pathName": "pages/popularity/main",
+					"query": "auid=2",
+					"scene": "1059"
+				},
+				{
+					"id": 11,
+					"name": "扫码进人物",
+					"pathName": "pages/persons/main",
+					"query": "auid=212",
+					"scene": "1059"
+				}
+			]
+		}
+	}
+}

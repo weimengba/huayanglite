@@ -1,0 +1,87 @@
+.color-text {
+  color: #333;
+}
+.color-redtext {
+  color: #f40009;
+}
+
+@color-text: #333;//标注文本颜色
+@color-text1: #999;//文本颜色浅色
+@color-white: #fff;
+@color-redtext: #f40009;
+@color-yeltxt: #fee517;  //文本黄色
+@fontsize: 16px;//文本字体
+@fontsize-large: 18px;//文本字体-大
+@fontsize-llarge: 20px;//文本字体-加大
+@fontsize-small: 14px;//文本字体-小
+@fontsize-ssmall: 12px;
+@bg-color: #e02e24;//背景颜色-红
+@bg-yellow: #fee517; //背景黄色
+@bg-white: #fff;  //背景白
+
+// 公共样式代码
+@fixedAll: {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+};
+@layer: {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, .5);
+};
+@flexBetween: {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+};
+@container: {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+};
+@absoCenter: {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+};
+@absoluted: {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+};
+.absoluteNum(@l,@t,@w,@h) {
+  position: absolute;
+  left: @l;
+  top: @t;
+  width: @w;
+  height: @h;
+}
+.flex(@justy:space-between,@align:stretch) {
+  display: flex;
+  justify-content: @justy;
+  align-items: @align;
+}
+.ellipsis(@num) {
+  display: -webkit-box;
+  -webkit-line-clamp: @num;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+};
+@textLimit: {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
