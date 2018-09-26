@@ -1,9 +1,9 @@
-<template>
+﻿<template>
   <div class="container">
 
     <div v-if="activity == 1" class="flower-wrap" @click="seeRank">
       <img class="see-flower" :src="flowerrate">
-    </div>
+    </div> 
     <scroll-view class="list-wrap"
                 enable-back-to-top
                 scroll-y
