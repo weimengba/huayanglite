@@ -1,11 +1,11 @@
-<template>
+﻿<template>
   <div class="top-wrap">
     <div class="top-tip">
       <!-- 活动结束 -->
       <template v-if="status==0">
         <p class="champion" v-if="tip[0]">恭喜{{tip[3].name}}</p>
         <p class="champion">获得冠军</p>
-        <!-- <p class="champion">被选为********</p> -->
+        <!-- <p class="champion">被选为********</p> -->   
         <p class="end-tip">{{tip[2]}}</p>
       </template>
       <!-- 活动进行中 -->
